@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: #f7f7f7;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+h3,
+p {
+  margin: 0px;
+}
+/* BARRA DE NAVEGAÇÃO */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.nav-items {
+  display: flex;
+  justify-content: center;
+}
+.nav-items li {
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  list-style: none;
+}
+.nav-items li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+/* CONTEUDO PRINCIPAL */
+.item-img img {
+  max-width: 100%;
+}
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  justify-content: center;
+}
+.item-description {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #fff;
+  padding: 2.5rem;
+  align-content: center;
+  justify-items: end;
+  gap: 0.5rem;
+}
+.item-description h2 {
+  width: max-content;
+  place-self: end;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.item-description p {
+  place-self: center end;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: auto;
+}
+.link-btn {
+  place-self: start end;
+  background-color: #ee2211;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+.item-title {
+  font-size: 4rem;
+  text-align: right;
+  align-self: center;
+  padding: 2rem;
+  color: #c6c6c6;
+  text-transform: uppercase;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.item-info {
+  padding: 3rem;
+  background-color: #fff;
+}
+
+.eletric {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem 0.5rem;
+  padding: 10px 0px;
+}
+.eletric p {
+  grid-column: 2;
+  margin: 0px;
+}
+
+.velocity {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem 0.5rem;
+  padding: 10px 0px;
+}
+.velocity p {
+  grid-column: 2;
+}
+.location {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem 0.5rem;
+  padding: 10px 0px;
+}
+.location p {
+  grid-column: 2;
+}
+.rodape p {
+  display: block;
+  width: 100%;
+}
